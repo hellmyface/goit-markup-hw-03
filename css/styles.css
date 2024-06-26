@@ -43,22 +43,22 @@ body {
 .nav__item {
     margin-left: 20px;
     font-weight: 500
-    color: #2e2f42;
 }
 
 .nav__link {
     text-decoration: none;
     font-weight: 500
-    
+    color: #2e2f42;
     letter-spacing: 0.02em
     line-height: 1.5
 }
 
 .nav__link:hover,
 .nav__link:focus,
+.nav__link:active,
 .contact__link:hover,
 .contact__link:focus {
-    color: #007BFF;
+    color: #404bbf;
 }
 
 .contact {
