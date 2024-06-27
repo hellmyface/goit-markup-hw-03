@@ -10,7 +10,6 @@ body {
 }
 
 .nav {
-    justify-content: space-between;
 }
 
 .nav__logo {
@@ -55,7 +54,7 @@ body {
 }
 
 .contact__list {
-    list-style: none;
+    font-style: normal;
 }
 
 .contact__item {
@@ -131,6 +130,10 @@ background-color: #FFFFFF;
 
 .team {
     background-color: #F4F4FD;
+}
+
+.team__item {
+    background-color: #FFFFFF;
 }
 
 .team__title {
