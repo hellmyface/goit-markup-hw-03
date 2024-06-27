@@ -71,7 +71,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal
+    font-style: normal;
 }
 
 .contact__link:hover,
@@ -125,4 +125,17 @@ body {
 
 .benefits__item {
     flex: 1 1 calc(25% - 20px
+}
+
+.team__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team__role {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
