@@ -123,11 +123,7 @@ body {
     margin: 0;
 }
 
-.benefits__item {
-    flex: 1 1 calc(25% - 20px
-}
-
-.team__title {
+.team__list {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -139,3 +135,38 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+.portfolio {
+    background-color: #F4F4FD;
+}
+.portfolio__title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.portfolio__item {
+    background-color: #FFFFFF
+}
+.portfolio__name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.portfolio__role {
+    font-size: 16px
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.benefits__item {
+    flex: 1 1 calc(25% - 20px
+}
+
+
+
