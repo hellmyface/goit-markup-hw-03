@@ -50,10 +50,11 @@ body {
 }
 
 .contact {
+    font-style: normal;
 }
 
 .contact__list {
-    font-style: normal;
+    
 }
 
 .contact__item {
@@ -85,7 +86,6 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 20px;
 }
 
 .hero__button {
@@ -107,7 +107,7 @@ body {
 }
 
 .benefits {
-background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 .benefits__subtitle {
