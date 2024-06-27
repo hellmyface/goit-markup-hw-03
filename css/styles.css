@@ -4,16 +4,13 @@ body {
     color: #434455;
     background-color: #FFFFFF;
     margin: 0;
-    padding: 0;
 }
 
 .header {
-    padding: 20px;
     background-color: #fff;
 }
 
 .nav {
-    display: flex;
     align-items: center;
     justify-content: space-between;
 }
@@ -34,10 +31,8 @@ body {
 }
 
 .nav__list {
-    display: flex;
     list-style: none;
     margin: 0;
-    padding: 0;
 }
 
 .nav__item {
@@ -60,14 +55,11 @@ body {
 }
 
 .contact {
-    display: flex;
 }
 
 .contact__list {
-    display: flex;
     list-style: none;
     margin: 0;
-    padding: 0;
 }
 
 .contact__item {
@@ -90,7 +82,6 @@ body {
 
 .hero {
     text-align: center;
-    padding: 50px 0;
     background: #2E2F42;
 }
 
@@ -106,7 +97,6 @@ body {
 }
 
 .hero__button {
-    padding: 10px 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -126,17 +116,14 @@ body {
 
 .benefits {
     background-color: #F4F4FD;
-    padding: 50px 20px;
 }
 
 .benefits__list {
     list-style: none;
-    display: flex;
     flex-wrap: wrap;
-    gap: 20px;
     margin: 0;
-    padding: 0;
 }
 
 .benefits__item {
     flex: 1 1 calc(25% - 20px
+}
