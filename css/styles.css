@@ -53,10 +53,10 @@ body {
 }
 
 .contact__list {
+    font-style: normal;
 }
 
 .contact__item {
-    font-style: normal;
 }
 
 .contact__link {
