@@ -94,6 +94,11 @@ img {
 .nav__items:not(:last-child) {
     margin-right: 40px;
 }
+
+.nav__item {
+    padding: 24px 0;
+}
+
 .nav__link:hover,
 .nav__link:focus,
 .contact__link:hover,
@@ -243,7 +248,6 @@ img {
     flex-direction: column;
     gap: 32px;
     margin-top: 232px;
-    width: calc((100% - 72px) / 4);
 }
 
 .text__container {
