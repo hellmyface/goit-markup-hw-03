@@ -112,6 +112,7 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .contact__link {
@@ -187,6 +188,7 @@ img {
 
 .benefits {
     background-color: #FFFFFF;
+    padding: 120px 0;
 }
 
 .benefits__list {
