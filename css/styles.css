@@ -49,10 +49,10 @@ img {
 }
 
 .header {
-padding-top: 24px;
-padding-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 
-border-bottom: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .nav {
@@ -70,11 +70,6 @@ border-bottom: 1px solid #e7e9fc;
     color: #4d5ae5;
     text-decoration: none;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 0px;
-    padding-left: 156px;
     margin-right: 76px;
 }
 
@@ -83,13 +78,9 @@ border-bottom: 1px solid #e7e9fc;
 }
 
 .nav__list {
-    list-style: none;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
     gap: 40px;
-    padding-left: 76px;
 }
 
 .nav__link {
@@ -100,6 +91,9 @@ border-bottom: 1px solid #e7e9fc;
     color: #2e2f42;
 }
 
+.nav__items:not(:last-child) {
+    margin-right: 40px;
+}
 .nav__link:hover,
 .nav__link:focus,
 .contact__link:hover,
@@ -121,6 +115,7 @@ border-bottom: 1px solid #e7e9fc;
 .contact__link {
     text-decoration: none;
     color: #434455;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -142,8 +137,7 @@ border-bottom: 1px solid #e7e9fc;
 .hero {
     text-align: center;
     background: #2E2F42;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 188px 0;
 }
 
 .hero__title {
@@ -249,6 +243,7 @@ border-bottom: 1px solid #e7e9fc;
     flex-direction: column;
     gap: 32px;
     margin-top: 232px;
+    width: calc((100% - 72px) / 4);
 }
 
 .text__container {
@@ -292,7 +287,6 @@ border-bottom: 1px solid #e7e9fc;
     color: #2e2f42;
     text-align: center;
     margin-bottom: 8px;
-    width: calc((100% - 72px) / 4);
 }
 
 .team__role {
