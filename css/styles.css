@@ -81,6 +81,7 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .nav__link {
@@ -138,7 +139,7 @@ img {
 .hero {
     text-align: center;
     background: #2E2F42;
-    padding: 120px 0;
+    padding: 188px 0;
 }
 
 .hero__title {
@@ -264,16 +265,18 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .team__list {
     display: flex;
     align-items: center;
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
+    padding: 0px 0px 120px 0px;
     width: 264px;
     height: 380px;
     gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
 .team__name {
