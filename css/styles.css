@@ -81,7 +81,7 @@ border-bottom: 1px solid #e7e9fc;
 .nav__list {
     list-style: none;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
@@ -98,41 +98,28 @@ border-bottom: 1px solid #e7e9fc;
 
 .nav__link:hover,
 .nav__link:focus,
-.contact__mail:hover,
-.contact__mail:focus,
-.contact__tel:hover,
-.contact__tel:focus {
+.contact__link:hover,
+.contact__link:focus {
     color: #404bbf;
 }
 
 .contact {
     font-style: normal;
+    margin-left: auto;
 }
 
 .contact__list {
     display: flex;
+    align-items: center;
     gap: 40px;
-    margin-left: 332px;
 }
 
-.contact__mail {
+.contact__link {
     text-decoration: none;
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-
-.contact__tel {
-    text-decoration: none;
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.hero__container {
-
 }
 
 .visually-hidden {
@@ -149,9 +136,7 @@ border-bottom: 1px solid #e7e9fc;
 .hero {
     text-align: center;
     background: #2E2F42;
-    width: 1440px;
-    height: 600px;
-    padding: 188px 0
+    padding: 188px 0;
 }
 
 .hero__title {
@@ -353,6 +338,7 @@ border-bottom: 1px solid #e7e9fc;
 .portfolio__list {
     display: flex;
     flex-wrap: wrap;
+    margin-top: calc(-1 * 48px);
     column-gap: 24px;
     row-gap: 48px;
 }
@@ -397,4 +383,7 @@ border-bottom: 1px solid #e7e9fc;
 
 .container {
     width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
