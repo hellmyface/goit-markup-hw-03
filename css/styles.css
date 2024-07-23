@@ -245,7 +245,6 @@ img {
     justify-content: center;
     flex-direction: column;
     gap: 32px;
-    margin-top: 232px;
 }
 
 .team__item:not(:nth-child(4n)) {
@@ -277,9 +276,7 @@ img {
     display: flex;
     align-items: center;
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 120px 0px;
-    width: calc((100% - 72px) / 4);
-    height: 380px;
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .team__name {
