@@ -278,9 +278,8 @@ img {
     align-items: center;
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 120px 0px;
-    width: 264px;
-    height: 380px;
     width: calc((100% - 72px) / 4);
+    height: 380px;
 }
 
 .team__name {
